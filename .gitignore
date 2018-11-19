@@ -1,0 +1,17 @@
+lib
+
+bin
+
+obj
+
+published
+
+.vs
+
+*.user
+
+*.map
+
+.vscode
+
+.user
