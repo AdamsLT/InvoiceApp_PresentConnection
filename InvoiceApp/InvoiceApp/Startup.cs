@@ -29,7 +29,7 @@ namespace InvoiceApp
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddScoped<IInvoiceService, InvoiceService>();
+            services.AddSingleton<IInvoiceService, InvoiceService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
